@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test Case 1",
+      "setup": "",
+      "run": "./main.py",
+      "input": "Atkinson\r\n16",
+      "output": "nosniktA\r\n4.0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test Case 2",
+      "setup": "",
+      "run": "main.py",
+      "input": "A\r\n14",
+      "output": "A\r\n3.7416573867739413",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Test Case 3",
+      "setup": "",
+      "run": "main.py",
+      "input": "My Name\r\n15.5",
+      "output": "emaN yM\r\n3.9370039370059056",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
