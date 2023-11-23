@@ -23,14 +23,10 @@ def reverseName(myName):
 def rootAge(myAge):
     # import python math and numbers
   import math
-  import numbers
 
   result = 0.0
   # validate
   if len(myAge) <= 0 or myAge == '':
-    return result
-
-  if not isinstance(myAge, numbers.Number):
     return result
   
   # make sure the number is a number
